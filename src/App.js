@@ -1,6 +1,6 @@
 import "./App.css";
 import Weather from "./Weather";
-function App() {
+export default function App() {
   return (
     <div className="APP">
       {" "}
@@ -10,17 +10,18 @@ function App() {
         <Weather />
         <footer>
           This project is coded by Farzan an is{" "}
-          <a
-            href="https://github.com/farzanedtmi/weather-react-app/commit/2482a73cec9781c50b2b0fc6b54ca26c33f9d22b"
-            target={"_blank"}
-          >
-            {" "}
-            open-sourced on Github{" "}
-          </a>
+             <a
+             href="https://github.com/farzanedtmi/weather-react-app/commit/2482a73cec9781c50b2b0fc6b54ca26c33f9d22b"
+             target="_blank"
+             rel="noreferrer"
+           >
+             {" "}
+             open-sourced on Github{" "}
+           </a>
         </footer>
       </div>{" "}
     </div>
   );
 }
 
-export default App;
+
